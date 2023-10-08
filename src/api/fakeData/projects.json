@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "name": "project 1",
+      "client": {
+        "id": "clt001",
+        "primary_poc": "org1_poc_001",
+        "organization": {
+          "id": "org001",
+          "organization_name": "Test Org",
+          "points_of_contact": ["org001_poc001", "org001_poc002"]
+        }
+      }
+    },
+    {
+      "id": "2",
+      "name": "project 2",
+      "client": {
+        "id": "clt004",
+        "primary_poc": "org1_poc_001",
+        "organization": {
+          "id": "org001",
+          "organization_name": "Test Org",
+          "points_of_contact": ["org001_poc001", "org001_poc002"]
+        }
+      }
+    }
+  ]
+}

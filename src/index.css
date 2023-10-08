@@ -1,0 +1,56 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  /* Custom Properties */
+  --max-content-width: 70em;
+  --default-padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  padding-inline: var(--default-padding);
+}
+
+h1 {
+}
+
+button {
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+}
+button:hover {
+}
+button:focus,
+button:focus-visible {
+}
+
+ul {
+  list-style-type: none;
+}
+
+.link-button {
+  border: 1px solid white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  color: white;
+}

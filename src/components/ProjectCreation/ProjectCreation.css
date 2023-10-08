@@ -1,0 +1,32 @@
+.ProjectCreation {
+  max-width: var(--max-content-width);
+  margin-inline: auto;
+
+  & button[type="submit"] {
+    margin-block: 2rem;
+  }
+}
+
+.ProjectCreation__section-header {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  font-size: 1.25rem;
+  border-top: 2px solid white;
+}
+
+.ProjectCreation__org,
+.ProjectCreation__poc {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  > * {
+    max-width: 20em;
+  }
+
+  > button {
+    margin-block: 2rem;
+    width: max-content;
+    padding: 0.25rem 0.5rem;
+  }
+}

@@ -1,0 +1,10 @@
+.FormGroup {
+  --flex-direction: column;
+  display: flex;
+  flex-direction: var(--flex-direction);
+  gap: 0.5rem;
+
+  > * {
+    max-width: 20em;
+  }
+}

@@ -1,0 +1,29 @@
+.Navbar {
+  width: 100vw;
+  margin-bottom: 2rem;
+}
+
+.Navbar__wrapper {
+  display: flex;
+  padding-block: 15px;
+  margin-inline: auto;
+  max-width: var(--max-content-width);
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.Navbar__logo-container {
+  width: 60px;
+  aspect-ratio: 1;
+  background-color: cyan;
+}
+
+.Navbar nav {
+  flex-grow: 1;
+}
+
+.Navbar nav > ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
